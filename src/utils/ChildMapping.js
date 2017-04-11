@@ -1,4 +1,4 @@
-import { Children } from 'react';
+import { Children } from 'preact-compat';
 
 
 /**

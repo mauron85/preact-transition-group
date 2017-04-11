@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'preact-compat';
 
 import TransitionGroup from './TransitionGroup';
 import CSSTransitionGroupChild from './CSSTransitionGroupChild';

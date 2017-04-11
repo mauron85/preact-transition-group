@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'react-transition-group.js',
+    filename: 'preact-transition-group.js',
     path: path.join(__dirname, 'lib/dist'),
     library: 'ReactTransitionGroup',
     libraryTarget: 'umd',

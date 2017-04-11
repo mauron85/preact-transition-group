@@ -1,5 +1,5 @@
 import chain from 'chain-function';
-import React from 'react';
+import React from 'preact-compat';
 import warning from 'warning';
 
 import { getChildMapping, mergeChildMappings } from './utils/ChildMapping';

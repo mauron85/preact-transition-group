@@ -2,8 +2,8 @@ import addClass from 'dom-helpers/class/addClass';
 import removeClass from 'dom-helpers/class/removeClass';
 import raf from 'dom-helpers/util/requestAnimationFrame';
 import { transitionEnd, animationEnd } from 'dom-helpers/transition/properties';
-import React from 'react';
-import { findDOMNode } from 'react-dom';
+import React from 'preact-compat';
+import { findDOMNode } from 'preact-compat';
 
 import { nameShape } from './utils/PropTypes';
 
