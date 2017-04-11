@@ -38,8 +38,8 @@
     "timers": "fake"
   },
   "peerDependencies": {
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "preact": "^8.1.0",
+    "preact-compat": "^3.14.3"
   },
   "dependencies": {
     "chain-function": "^1.0.0",
@@ -63,8 +63,9 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0",
     "jest-cli": "^19.0.2",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "preact": "^8.1.0",
+    "preact-compat": "^3.14.3",
+    "prop-types": "^15.5.6",
     "release-script": "^1.0.2",
     "rimraf": "^2.6.1",
     "teaspoon": "^6.4.3",

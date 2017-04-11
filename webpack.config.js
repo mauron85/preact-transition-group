@@ -10,16 +10,16 @@ module.exports = {
   },
   externals: {
     react: {
-      root: 'React',
-      commonjs2: 'react',
-      commonjs: 'react',
-      amd: 'react',
+      root: 'preactCompat',
+      commonjs2: 'preact-compat',
+      commonjs: 'preact-compat',
+      amd: 'preact-compat',
     },
     'react-dom': {
-      root: 'ReactDOM',
-      commonjs2: 'react-dom',
-      commonjs: 'react-dom',
-      amd: 'react-dom',
+      root: 'preactCompat',
+      commonjs2: 'preact-compat',
+      commonjs: 'preact-compat',
+      amd: 'preact-compat',
     },
   },
   module: {
@@ -29,5 +29,12 @@ module.exports = {
         loader: 'babel-loader',
       },
     ],
+  },
+  resolve: {
+    extensions: ['.js'],
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat',
+    },
   },
 };
